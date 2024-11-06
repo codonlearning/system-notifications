@@ -1,6 +1,10 @@
-{
+[
+  {
   "message": "System maintenance scheduled for November 10th, 2:00 AM - 4:00 AM UTC.",
   "downtimeISO": "2024-11-28T05:00:00-05:00",
   "downtimeDuration": { "minutes": 20 },
-  "expirationISO": "2024-11-28T05:20:00-05:00"
+  "expirationISO": "2024-11-28T05:20:00-05:00",
+  "showToRoles":[],
+  "showTimeWindow": "yes"
 }
+]
