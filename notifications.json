@@ -1,18 +1,19 @@
 [
   {
-  "message": "Codon will be temporarily unavailable for 20 minutes while we are improving our services.",
-  "downtimeISO": "2024-11-28T05:00:00-05:00",
-  "downtimeDuration": { "minutes": 20 },
-  "expirationISO": "2024-11-28T05:20:00-05:00",
-  "showToRoles":[],
-  "showTimeWindow": "yes"
-  },
-  {
-    "message": "Codon is experience intermittent issues. We are working to resolve the issue.",
+    "id": "1",
+    "message": "Codon will be temporarily unavailable for 20 minutes while we are improving our services.",
+    "showToRoles":[],
+    "showTimeWindow": "yes",
     "downtimeISO": "2024-11-28T05:00:00-05:00",
     "downtimeDuration": { "minutes": 20 },
-    "expirationISO": "2024-11-28T05:20:00-05:00",
+    "expirationISO": "2024-11-28T05:20:00-05:00"
+
+  },
+  {
+    "id": "2",
+    "message": "Codon is experience intermittent issues. We are working to resolve them.",
     "showToRoles":[],
     "showTimeWindow": "no"
+    
   }
 ]
