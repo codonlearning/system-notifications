@@ -2,7 +2,7 @@
   {
     "id": 1,
     "notificationStart": "2024-11-06T13:00:00-04:00",
-    "notificationEnd": "2024-11-06T14:20:00-04:00",
+    "notificationEnd": "2024-11-06T15:20:00-04:00",
     "downtimeStart": "2024-11-06T14:10:00-04:00",
     "downtimeDuration": {
       "minutes": 20
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "notificationStart": "2024-11-07T13:00:00-04:00",
-    "notificationEnd": "2024-11-07T14:20:00-04:00",
+    "notificationEnd": "2024-11-07T15:20:00-04:00",
     "downtimeStart": "2024-11-07T14:10:00-04:00",
     "downtimeDuration": {
       "minutes": 20
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "notificationStart": "2024-11-07T13:00:00-04:00",
-    "notificationEnd": "2024-11-07T14:20:00-04:00",
+    "notificationEnd": "2024-11-07T15:20:00-04:00",
     "downtimeStart": "2024-11-07T14:10:00-04:00",
     "downtimeDuration": {
       "minutes": 40
