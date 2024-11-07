@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "Codon System Notification static JSON repository",
   "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "sh checkJson.sh"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Codon Learning",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ajv-cli": "^5.0.0",
+    "husky": "^9.1.6"
+  }
 }
