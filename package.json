@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "Codon System Notification static JSON repository",
   "main": "index.js",
-  "husky": {
-    "hooks": {
-      "pre-commit": "sh checkJson.sh"
-    }
-  },
   "scripts": {
     "test": "npx ajv -d notifications.json -s notification-schema.json",
     "prepare": "husky"
