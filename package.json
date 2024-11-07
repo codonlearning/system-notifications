@@ -1,0 +1,15 @@
+{
+  "name": "system-notifications",
+  "version": "1.0.0",
+  "description": "Codon System Notification static JSON repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ajv -d notifications.json -s notification-schema.json",
+    "prepare": "husky"
+  },
+  "author": "Codon Learning",
+  "devDependencies": {
+    "ajv-cli": "^5.0.0",
+    "husky": "^9.1.6"
+  }
+}

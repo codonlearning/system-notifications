@@ -25,11 +25,6 @@
     "id": 3,
     "notificationStart": "2024-11-07T12:00:00-04:00",
     "notificationEnd": "2024-11-07T18:20:00-04:00",
-    "downtimeStart": "2024-11-07T14:10:00-04:00",
-    "downtimeDuration": {
-      "minutes": 40
-    },
-    "message": "Notification 3",
-    "showToRoles": []
+    "message": "Notification 3 - no downtime, just a notification message"
   }
 ]

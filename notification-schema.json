@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "notificationStart": {
+        "type": "string"
+      },
+      "notificationEnd": {
+        "type": "string"
+      },
+      "downtimeStart": {
+        "type": "string"
+      },
+      "downtimeDuration": {
+        "type": "object",
+        "properties": {
+          "minutes": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "minutes"
+        ]
+      },
+      "message": {
+        "type": "string"
+      },
+      "showToRoles": {
+        "type": "array",
+        "items": {}
+      }
+    },
+    "required": [
+      "id",
+      "notificationStart",
+      "notificationEnd",
+      "message"
+    ]
+  }
+}
