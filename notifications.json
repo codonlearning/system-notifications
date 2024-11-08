@@ -37,5 +37,16 @@
     },
     "message": "Notification 4",
     "showToRoles": []
+  },
+  {
+    "id": 5,
+    "notificationStart": "2024-11-08T14:00:00-05:00",
+    "notificationEnd": "2024-11-12T23:59:59-05:00",
+    "downtimeStart": "2024-11-12T00:00:00-05:00",
+    "downtimeDuration": {
+      "minutes": 5
+    },
+    "message": "Notification 5",
+    "showToRoles": []
   }
 ]
