@@ -2,8 +2,7 @@
 
 System notifications such as downtime notices or information about system disruptions are stored here.
 
-JSON is automatically validated in a pre-commit hook to ensure we don't break anything when manually creating JSON notifications
-The `notification-schema.json` file is based on the web-app's NotificationData. So you don't have to worry about malformed JSON, it won't cause an error.
+JSON is automatically validated in a pre-commit hook to ensure we don't break anything when manually creating JSON notifications. So you don't have to worry about malformed JSON, it won't cause an error in the app.
 
 ## How to post a new notification
 
@@ -20,7 +19,7 @@ The `notification-schema.json` file is based on the web-app's NotificationData. 
 
 ```javascript
 {
-  "id":4 // Unique identifier for the notification, can be anything as long as it not used by any other notification
+  "id":4 // Unique identifier for the notification, can be anything as long as it not used by any other active notification
   "notificationStart": "2024-11-07T16:00:00-04:00", // Start time of the notification (ISO 8601 format)
   "notificationEnd": "2024-11-07T20:20:00-04:00",   // End time of the notification (ISO 8601 format)
   "downtimeStart": "2024-11-07T18:10:00-04:00",     // Start time of planned downtime (ISO 8601 format)
@@ -31,3 +30,8 @@ The `notification-schema.json` file is based on the web-app's NotificationData. 
   "showToRoles": []                       // Array of roles that can view this notification. Any empty array indicates the message should be displayed to all roles
 }
 ```
+Roles:
+- 1	= Instructor
+- 2	= Student
+- 3	= TeachingAssistant (not in use)
+- 4	= Admin
