@@ -2,7 +2,9 @@
 
 System notifications such as downtime notices or information about system disruptions are stored here.
 
-JSON is automatically validated in a pre-commit hook to ensure we don't break anything when manually creating JSON notifications. So you don't have to worry about malformed JSON, it won't cause an error in the app.
+JSON in notifications is automatically validated in a pre-commit hook to ensure we don't break anything when manually creating JSON notifications. Malformed JSON won't be able to be committed to the repo. 
+
+Once you have the repo set up locally, run NPM install before committing, otherwise the pre-commit hook won't run.
 
 ## How to post a new notification
 
