@@ -49,7 +49,6 @@
     "id": 7,
     "notificationStart": "2024-11-07T12:00:00-04:00",
     "notificationEnd": "2024-11-17T18:20:00-04:00",
-    "message": "Notification 7 instructor, student, admin only - no downtime, but there could be",
-    "showToRoles": [1,2,4]
+    "message": "Notification 7 omit showToRoles - no downtime, but there could be"
   }
 ]
