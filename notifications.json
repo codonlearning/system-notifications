@@ -50,5 +50,11 @@
     "notificationStart": "2024-11-07T12:00:00-04:00",
     "notificationEnd": "2024-11-17T18:20:00-04:00",
     "message": "Notification 7 omit showToRoles - no downtime, but there could be"
+  },
+  {
+    "id": 8,
+    "notificationStart": "2024-11-10T12:00:00-04:00",
+    "notificationEnd": "2024-11-18T23:59:59-04:00",
+    "message": "Notification 8 - active at the same time as Notification 7"
   }
 ]
