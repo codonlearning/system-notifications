@@ -7,7 +7,7 @@
     "downtimeDuration": {
       "minutes": 20
     },
-    "message": "Codon Learning will be unavailable.",
-    "showToRoles": []
+    "message": "We're working on improvements!",
+    "showToRoles": [4]
   }
 ]
