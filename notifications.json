@@ -1,9 +1,9 @@
 [
     {
     "id": 1,
-    "notificationStart": "2025-06-24T01:00:00-08:00",
-    "notificationEnd": "2025-07-03T00:20:00-08:00",
-    "downtimeStart": "2025-07-03T00:00:00-08:00",
+    "notificationStart": "2025-06-24T01:00:00-07:00",
+    "notificationEnd": "2025-07-03T00:20:00-07:00",
+    "downtimeStart": "2025-07-03T00:00:00-07:00",
     "downtimeDuration": {
       "minutes": 20
     },
